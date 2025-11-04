@@ -9,7 +9,7 @@ from ai_helper import get_answer
 
 # ---------- PAGE CONFIG ----------
 st.set_page_config(
-    page_title="🌾 Project FarmAssist — Smart Rural Insights",
+    page_title="🌾 FarmAssist — Smart Rural Insights",
     page_icon="🌿",
     layout="wide",
 )
@@ -54,7 +54,7 @@ st.markdown(
 )
 
 # ---------- SIDEBAR ----------
-st.sidebar.title("🌾 Project Samarth")
+st.sidebar.title("🌾 FarmAssist")
 st.sidebar.markdown("### Empowering Rural Insights with Local AI 💾")
 menu = st.sidebar.radio("📂 Navigate", ["Ask AI", "About"])
 st.sidebar.markdown("---")
@@ -70,7 +70,7 @@ if menu == "Ask AI":
     with col1:
         st.markdown(
             """
-            <h1 style='color:#2e7d32;'>🌿 Project Samarth — Smart Rural Q&A</h1>
+            <h1 style='color:#2e7d32;'>🌿 FarmAssist — Smart Rural Q&A</h1>
             <p style='color:gray; font-size:1.1rem;'>
             Ask anything about <b>rainfall ☔</b> or <b>crop trends 🌾</b> — fully offline💾
             </p>
@@ -174,9 +174,9 @@ if menu == "Ask AI":
 elif menu == "About":
     st.markdown(
         """
-        <h2 style='color:#2e7d32;'>🌿 About Project Samarth</h2>
+        <h2 style='color:#2e7d32;'>🌿 About FarmAssist</h2>
         <p style='font-size:1.1rem;'>
-        <b>Project Samarth</b> is an AI-powered offline Q&A assistant built for 
+        <b>FarmAssist</b> is an AI-powered offline Q&A assistant built for 
         <b>agricultural intelligence and rural planning</b>.  
         It helps users explore data on rainfall, crops, and pricing directly from 
         local datasets using <b>DuckDB</b> — without needing internet or cloud AI.
