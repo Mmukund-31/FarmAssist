@@ -9,7 +9,7 @@ from ai_helper import get_answer
 
 # ---------- PAGE CONFIG ----------
 st.set_page_config(
-    page_title="🌾 Project Samarth — Smart Rural Insights",
+    page_title="🌾 Project FarmAssist — Smart Rural Insights",
     page_icon="🌿",
     layout="wide",
 )
@@ -182,7 +182,7 @@ elif menu == "About":
         local datasets using <b>DuckDB</b> — without needing internet or cloud AI.
         </p>
         <p>
-        Built with ❤️ by Siri Reddy using <b>Streamlit</b> ⚡ + <b>DuckDB</b> 🦆 + <b>Python</b> 🐍
+        Built with ❤️ by Mukund using <b>Streamlit</b> ⚡ + <b>DuckDB</b> 🦆 + <b>Python</b> 🐍
         </p>
         """,
         unsafe_allow_html=True,
@@ -195,7 +195,7 @@ st.markdown(
     """
     <hr>
     <p style='text-align:center; color:gray;'>
-    🌾 Built with ❤️ by <b>Siri Reddy</b>
+    🌾 Built by <b>Mukund</b>
     </p>
     """,
     unsafe_allow_html=True,
